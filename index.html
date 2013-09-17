@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Programmeringsspråk</title> 
+</head>
+
+<body>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="index.html">Hjem</a>
+   <li><a href="#" onclick="myFunction()">Kronologisk</a>
+   <li><a href="#" onclick="myFunction()">Hiriarkisk</a>
+   <li><a href="#" onclick="myFunction()">Alfabetisk</a>
+</ul>
+
+ <link rel="stylesheet" href="lab2stylesheet.css">
+  
+  
+  
+<form> 
+  
+  <label for="proglangs">Velg:</label>
+					<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+					<option value="asp" class="red-text">ActionScript</option>
+					<option value="asp">AppleScript</option>
+					<option value="asp">Asp</option>
+					<option value="basic">BASIC</option>
+					<option value="c">C</option>
+					<option value="cplusspluss">C++</option>
+					<option value="cplusspluss">Clojure</option>
+					<option value="cplusspluss">COBOL</option>
+					<option value="CF">ColdFusion</option>
+					<option value="Erlang">Erlang</option>
+					<option value="FT">Fortran</option>
+					<option value="Groovy">Groovy</option>
+					<option value="Haksell">Haskell</option>
+					<option value="Java">Java</option>
+					<option value="JavaScript">JavaScript</option>
+					<option value="Lisp">Lisp</option>
+					<option value="Perl">Perl</option>
+					<option value="PHP">PHP</option>
+					<option value="Python">Python</option>
+					<option value="Ruby">Ruby</option>
+					<option value="Scala">Scala</option>
+					<option value="Scheme">Scheme</option>
+				</select>
+				
+			</form>
+			
+			
+				
+				<span id="outputbox">Intet språk er valgt. Velg et språk </span>
+				<script src="lab2.js"></script>
+  
+<!-- Main content -->
+<h1>Programmeringsspråk - hva er det?</h1>
+
+<p> Velkommen til en mystisk verden av programmeringsspråk
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Made 17.09.2013<br>
+  By Karl.</address>
+
+</body>
+</html>
